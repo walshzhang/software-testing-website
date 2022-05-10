@@ -1,0 +1,17 @@
+{
+  "name": "software-testing-website",
+  "version": "1.0.0",
+  "description": "软件测试课程网站",
+  "main": "index.js",
+  "author": "xiufeng.zhang",
+  "license": "MIT",
+
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.43"
+  }
+}
