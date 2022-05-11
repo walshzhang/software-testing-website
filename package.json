@@ -5,13 +5,14 @@
   "main": "index.js",
   "author": "xiufeng.zhang",
   "license": "MIT",
-
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-
   "devDependencies": {
     "vuepress": "^2.0.0-beta.43"
+  },
+  "dependencies": {
+    "markdown-it-katex": "^2.0.3"
   }
 }
